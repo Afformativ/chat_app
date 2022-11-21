@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -143,7 +143,7 @@ namespace Chat_Server
                 if (chan == 0)
                 {
                     channel = data;
-                    Console.WriteLine("Message pret a etre ecrit sur le channel/pour le client : "+channel);
+                    Console.WriteLine("Message ready to be written on the channel/for the client : " + channel);
                     chan++;
                 }     
                 else if (chan == 1)
@@ -175,9 +175,9 @@ namespace Chat_Server
                             Console.WriteLine("No defined action for :" + action_to_do);
 
 
-                            Console.WriteLine("Le channel courant est : " + current._currentchannel._name);
-                            Console.WriteLine("Le private courant est : "+ current._currentprivate._name);
-                            Console.WriteLine("Le channel OU prenom a comparé est : " + channel);
+                            Console.WriteLine("The current channel is: " + current._currentchannel._name);
+                            Console.WriteLine("The current channel is: " + current._currentprivate._name);
+                            Console.WriteLine("The channel OR firstname compared is: " + channel);
 
                             //Console.WriteLine((Equals(current._currentchannel._name, "Default")));
 
