@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,7 +35,7 @@ namespace ChatApp
             server_channels._channels.Add(new Channel("Paralel Prog"));
             server_channels._channels.Add(new Channel("Dota2"));
             server_channels._channels.Add(new Channel("IT"));
-            server_channels._channels.Add(new Channel("University of Waterloo"));
+            server_channels._channels.Add(new Channel("UofW"));
 
 
             Connection(5000);
